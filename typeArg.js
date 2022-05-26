@@ -1,0 +1,1 @@
+const typeArg = arg => console.log(typeof arg);
