@@ -55,7 +55,7 @@ simpleNumConsole(100);
 
 const odd = (start, till) =>{
     for(start;start<till;start++){
-        if(start%2>0||start%2<0)console.log(start)
+        if(start%2!==0)console.log(start)
     }
 }
 
